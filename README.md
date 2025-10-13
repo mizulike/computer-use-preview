@@ -32,9 +32,10 @@ playwright install chrome
 ```
 
 ### 2. Configuration
+
 You can get started using either the Gemini Developer API or Vertex AI.
 
-#### A. If using the Gemini Developer API:
+#### A. If using the Gemini Developer API
 
 You need a Gemini API key to use the agent:
 
@@ -54,7 +55,7 @@ source .venv/bin/activate
 
 Replace `YOUR_GEMINI_API_KEY` with your actual key.
 
-#### B. If using the Vertex AI Client:
+#### B. If using the Vertex AI Client
 
 You need to explicitly use Vertex AI, then provide project and location to use the agent:
 
@@ -127,7 +128,7 @@ The `main.py` script is the command-line interface (CLI) for running the browser
 |-|-|-|-|-|
 | `--query` | The natural language query for the browser agent to execute. | Yes | N/A | All |
 | `--env` | The computer use environment to use. Must be one of the following: `playwright`, or `browserbase` | No | N/A | All |
-| `--initial_url` | The initial URL to load when the browser starts. | No | https://www.google.com | All |
+| `--initial_url` | The initial URL to load when the browser starts. | No | <https://www.google.com> | All |
 | `--highlight_mouse` | If specified, the agent will attempt to highlight the mouse cursor's position in the screenshots. This is useful for visual debugging. | No | False (not highlighted) | `playwright` |
 
 ### Environment Variables
