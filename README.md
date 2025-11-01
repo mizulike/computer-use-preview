@@ -1,4 +1,5 @@
 # Computer Use Preview
+[![CI Tests](https://github.com/mizulike/computer-use-preview/actions/workflows/main.yaml/badge.svg)](https://github.com/mizulike/computer-use-preview/actions/workflows/main.yaml)
 
 ## Quick Start
 
